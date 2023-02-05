@@ -1,7 +1,9 @@
 import React from "react";
+
 import Student from "./Components/Student/Student";
 import StudentReview from "./Components/Student/StudentReview";
-class MainBody extends React.Component(){
+
+class MainBody extends React.Component{
     render(){
     const totalLecture = 3;
     return(
@@ -24,7 +26,8 @@ class MainBody extends React.Component(){
         </Student>
         <Student experience={1} name='The Hulk' headshot='https://api.lorem.space/image/face?w=150&h=153'/>
       </div>
-    )}
+    );
+  }
  }
 
  export default MainBody;
